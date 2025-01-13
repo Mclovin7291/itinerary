@@ -11,7 +11,7 @@ import Login from './Pages/Login';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Navbar />
       <Login /> 
       <Routes>
