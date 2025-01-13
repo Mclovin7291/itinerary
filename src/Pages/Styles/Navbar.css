@@ -1,0 +1,27 @@
+.nav {
+    text-align: center;
+}
+
+.list {
+    list-style: none;
+
+}
+
+.alist {
+    text-decoration: none;
+    color: blue;
+
+}
+
+/*a:visited {
+    text-decoration: none;
+    color: red;
+}*/
+
+a:hover, a:active {
+    color: darkblue;
+    text-decoration: none;
+    background-color: rgba(102, 102, 236, 0.358);
+    border-radius: 20px;
+    padding: 1px 10px;
+}

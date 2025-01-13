@@ -1,0 +1,222 @@
+2025-01-12 23:01:21,367 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-12 23:01:21,367 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-01-12 23:01:21,369 - werkzeug - INFO -  * Restarting with stat
+2025-01-12 23:01:22,222 - werkzeug - WARNING -  * Debugger is active!
+2025-01-12 23:01:22,226 - werkzeug - INFO -  * Debugger PIN: 733-486-158
+2025-01-12 23:01:34,373 - __main__ - ERROR - Bad Request: Valid two-letter state code is required
+2025-01-12 23:01:34,375 - werkzeug - INFO - 127.0.0.1 - - [12/Jan/2025 23:01:34] "[31m[1mGET /parameters/2535%20layton%20drive/lithonia/Georgia/30058/8047/2 HTTP/1.1[0m" 400 -
+2025-01-12 23:01:34,381 - __main__ - ERROR - Bad Request: Valid two-letter state code is required
+2025-01-12 23:01:34,381 - werkzeug - INFO - 127.0.0.1 - - [12/Jan/2025 23:01:34] "[31m[1mGET /parameters/2535%20layton%20drive/lithonia/Georgia/30058/8047/2 HTTP/1.1[0m" 400 -
+2025-01-12 23:02:29,710 - __main__ - ERROR - Bad Request: Valid two-letter state code is required
+2025-01-12 23:02:29,711 - werkzeug - INFO - 127.0.0.1 - - [12/Jan/2025 23:02:29] "[31m[1mGET /parameters/2535%20layton%20drive/lithonia/GEORGIA/30058/8047/2 HTTP/1.1[0m" 400 -
+2025-01-12 23:02:32,713 - __main__ - ERROR - Bad Request: Valid two-letter state code is required
+2025-01-12 23:02:32,713 - werkzeug - INFO - 127.0.0.1 - - [12/Jan/2025 23:02:32] "[31m[1mGET /parameters/2535%20layton%20drive/lithonia/Georgia/30058/8047/2 HTTP/1.1[0m" 400 -
+2025-01-12 23:02:49,287 - __main__ - ERROR - Bad Request: Valid two-letter state code is required
+2025-01-12 23:02:49,287 - werkzeug - INFO - 127.0.0.1 - - [12/Jan/2025 23:02:49] "[31m[1mGET /parameters/2535%20layton%20drive/lithonia/Georgia/30058/8047/2 HTTP/1.1[0m" 400 -
+2025-01-12 23:02:49,295 - __main__ - ERROR - Bad Request: Valid two-letter state code is required
+2025-01-12 23:02:49,296 - werkzeug - INFO - 127.0.0.1 - - [12/Jan/2025 23:02:49] "[31m[1mGET /parameters/2535%20layton%20drive/lithonia/Georgia/30058/8047/2 HTTP/1.1[0m" 400 -
+2025-01-12 23:03:00,430 - __main__ - INFO - Received request for 2535 layton drive, lithonia, GA 30058
+2025-01-12 23:03:00,546 - werkzeug - INFO - 127.0.0.1 - - [12/Jan/2025 23:03:00] "[31m[1mGET /parameters/2535%20layton%20drive/lithonia/GA/30058/16093/3 HTTP/1.1[0m" 400 -
+2025-01-12 23:03:00,855 - werkzeug - INFO - 127.0.0.1 - - [12/Jan/2025 23:03:00] "[31m[1mGET /parameters/2535%20layton%20drive/lithonia/GA/30058/16093/3 HTTP/1.1[0m" 400 -
+2025-01-12 23:03:42,709 - werkzeug - INFO -  * Detected change in 'C:\\Users\\drewm\\Documents\\GitHub\\sweitinerary\\src\\server\\coordinates.py', reloading
+2025-01-12 23:03:42,793 - werkzeug - INFO -  * Restarting with stat
+2025-01-12 23:03:43,805 - werkzeug - WARNING -  * Debugger is active!
+2025-01-12 23:03:43,808 - werkzeug - INFO -  * Debugger PIN: 733-486-158
+2025-01-12 23:05:40,338 - werkzeug - INFO -  * Detected change in 'C:\\Users\\drewm\\Documents\\GitHub\\sweitinerary\\src\\server\\server.py', reloading
+2025-01-12 23:05:40,386 - werkzeug - INFO -  * Restarting with stat
+2025-01-12 23:05:41,304 - werkzeug - WARNING -  * Debugger is active!
+2025-01-12 23:05:41,307 - werkzeug - INFO -  * Debugger PIN: 733-486-158
+2025-01-12 23:05:45,640 - werkzeug - INFO - 127.0.0.1 - - [12/Jan/2025 23:05:45] "[31m[1mGET /parameters/2535%20layton%20drive/lithonia/GA/30058/16093/3 HTTP/1.1[0m" 400 -
+2025-01-12 23:05:45,750 - werkzeug - INFO - 127.0.0.1 - - [12/Jan/2025 23:05:45] "[31m[1mGET /parameters/2535%20layton%20drive/lithonia/GA/30058/16093/3 HTTP/1.1[0m" 400 -
+2025-01-12 23:06:44,521 - werkzeug - INFO -  * Detected change in 'C:\\Users\\drewm\\Documents\\GitHub\\sweitinerary\\src\\server\\coordinates.py', reloading
+2025-01-12 23:06:44,569 - werkzeug - INFO -  * Restarting with stat
+2025-01-12 23:06:45,476 - werkzeug - WARNING -  * Debugger is active!
+2025-01-12 23:06:45,479 - werkzeug - INFO -  * Debugger PIN: 733-486-158
+2025-01-12 23:06:51,510 - werkzeug - INFO -  * Detected change in 'C:\\Users\\drewm\\Documents\\GitHub\\sweitinerary\\src\\server\\server.py', reloading
+2025-01-12 23:06:51,553 - werkzeug - INFO -  * Restarting with stat
+2025-01-12 23:06:52,420 - werkzeug - WARNING -  * Debugger is active!
+2025-01-12 23:06:52,424 - werkzeug - INFO -  * Debugger PIN: 733-486-158
+2025-01-12 23:06:54,440 - werkzeug - INFO -  * Detected change in 'C:\\Users\\drewm\\Documents\\GitHub\\sweitinerary\\src\\server\\server.py', reloading
+2025-01-12 23:06:54,481 - werkzeug - INFO -  * Restarting with stat
+2025-01-12 23:06:55,356 - werkzeug - WARNING -  * Debugger is active!
+2025-01-12 23:06:55,360 - werkzeug - INFO -  * Debugger PIN: 733-486-158
+2025-01-12 23:08:48,691 - __main__ - INFO - Received request with parameters: 2535 layton drive, lithonia, GA, 30058, 16093, 3
+2025-01-12 23:08:48,692 - __main__ - INFO - Raw street: 2535 layton drive
+2025-01-12 23:08:48,692 - __main__ - INFO - Raw city: lithonia
+2025-01-12 23:08:48,692 - __main__ - INFO - Raw state: GA
+2025-01-12 23:08:48,692 - __main__ - INFO - Raw zipcode: 30058
+2025-01-12 23:08:48,692 - coordinates - INFO - Received address parameters: street='2535 layton drive', city='lithonia', state='GA', zip='30058'
+2025-01-12 23:08:48,692 - coordinates - INFO - Decoded address parameters: street='2535 layton drive', city='lithonia', state='GA', zip='30058'
+2025-01-12 23:08:48,692 - coordinates - INFO - Sending request to SmartyStreets API
+2025-01-12 23:08:48,806 - coordinates - ERROR - Error geocoding address: Payment Required: There is no active subscription for the account associated with the credentials submitted with the request.
+2025-01-12 23:08:48,806 - __main__ - ERROR - Geocoding failed - no coordinates returned
+2025-01-12 23:08:48,807 - werkzeug - INFO - 127.0.0.1 - - [12/Jan/2025 23:08:48] "[31m[1mGET /parameters/2535%20layton%20drive/lithonia/GA/30058/16093/3 HTTP/1.1[0m" 400 -
+2025-01-12 23:08:48,941 - __main__ - INFO - Received request with parameters: 2535 layton drive, lithonia, GA, 30058, 16093, 3
+2025-01-12 23:08:48,941 - __main__ - INFO - Raw street: 2535 layton drive
+2025-01-12 23:08:48,941 - __main__ - INFO - Raw city: lithonia
+2025-01-12 23:08:48,941 - __main__ - INFO - Raw state: GA
+2025-01-12 23:08:48,941 - __main__ - INFO - Raw zipcode: 30058
+2025-01-12 23:08:48,941 - coordinates - INFO - Received address parameters: street='2535 layton drive', city='lithonia', state='GA', zip='30058'
+2025-01-12 23:08:48,941 - coordinates - INFO - Decoded address parameters: street='2535 layton drive', city='lithonia', state='GA', zip='30058'
+2025-01-12 23:08:48,941 - coordinates - INFO - Sending request to SmartyStreets API
+2025-01-12 23:08:49,041 - coordinates - ERROR - Error geocoding address: Payment Required: There is no active subscription for the account associated with the credentials submitted with the request.
+2025-01-12 23:08:49,041 - __main__ - ERROR - Geocoding failed - no coordinates returned
+2025-01-12 23:08:49,042 - werkzeug - INFO - 127.0.0.1 - - [12/Jan/2025 23:08:49] "[31m[1mGET /parameters/2535%20layton%20drive/lithonia/GA/30058/16093/3 HTTP/1.1[0m" 400 -
+2025-01-12 23:11:21,244 - werkzeug - INFO -  * Detected change in 'C:\\Users\\drewm\\Documents\\GitHub\\sweitinerary\\src\\server\\coordinates.py', reloading
+2025-01-12 23:11:21,303 - werkzeug - INFO -  * Restarting with stat
+2025-01-12 23:11:22,317 - werkzeug - WARNING -  * Debugger is active!
+2025-01-12 23:11:22,320 - werkzeug - INFO -  * Debugger PIN: 733-486-158
+2025-01-12 23:12:59,622 - werkzeug - INFO -  * Detected change in 'C:\\Users\\drewm\\Documents\\GitHub\\sweitinerary\\src\\server\\coordinates.py', reloading
+2025-01-12 23:12:59,658 - werkzeug - INFO -  * Restarting with stat
+2025-01-12 23:13:01,231 - werkzeug - WARNING -  * Debugger is active!
+2025-01-12 23:13:01,235 - werkzeug - INFO -  * Debugger PIN: 733-486-158
+2025-01-12 23:13:22,317 - werkzeug - INFO -  * Detected change in 'C:\\Users\\drewm\\Documents\\GitHub\\sweitinerary\\src\\server\\coordinates.py', reloading
+2025-01-12 23:13:22,351 - werkzeug - INFO -  * Restarting with stat
+2025-01-12 23:13:23,250 - werkzeug - WARNING -  * Debugger is active!
+2025-01-12 23:13:23,254 - werkzeug - INFO -  * Debugger PIN: 733-486-158
+2025-01-12 23:13:27,277 - werkzeug - INFO -  * Detected change in 'C:\\Users\\drewm\\Documents\\GitHub\\sweitinerary\\src\\server\\coordinates.py', reloading
+2025-01-12 23:13:27,314 - werkzeug - INFO -  * Restarting with stat
+2025-01-12 23:16:15,939 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-12 23:16:15,939 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-01-12 23:16:15,941 - werkzeug - INFO -  * Restarting with stat
+2025-01-12 23:16:16,798 - werkzeug - WARNING -  * Debugger is active!
+2025-01-12 23:16:16,800 - werkzeug - INFO -  * Debugger PIN: 733-486-158
+2025-01-12 23:16:29,053 - __main__ - INFO - Received request with parameters: 2535 layton drive, lithonia, GA, 30058, 16093, 3
+2025-01-12 23:16:29,053 - __main__ - INFO - Raw street: 2535 layton drive
+2025-01-12 23:16:29,053 - __main__ - INFO - Raw city: lithonia
+2025-01-12 23:16:29,053 - __main__ - INFO - Raw state: GA
+2025-01-12 23:16:29,053 - __main__ - INFO - Raw zipcode: 30058
+2025-01-12 23:16:29,053 - coordinates - INFO - Received address parameters: street='2535 layton drive', city='lithonia', state='GA', zip='30058'
+2025-01-12 23:16:29,053 - coordinates - INFO - Decoded address parameters: street='2535 layton drive', city='lithonia', state='GA', zip='30058'
+2025-01-12 23:16:29,053 - coordinates - INFO - Sending request to SmartyStreets API
+2025-01-12 23:16:29,793 - coordinates - ERROR - SmartyStreets API error: Payment Required: There is no active subscription for the account associated with the credentials submitted with the request.
+2025-01-12 23:16:29,793 - __main__ - ERROR - Geocoding failed - no coordinates returned
+2025-01-12 23:16:29,794 - werkzeug - INFO - 127.0.0.1 - - [12/Jan/2025 23:16:29] "[31m[1mGET /parameters/2535%20layton%20drive/lithonia/GA/30058/16093/3 HTTP/1.1[0m" 400 -
+2025-01-12 23:16:30,120 - __main__ - INFO - Received request with parameters: 2535 layton drive, lithonia, GA, 30058, 16093, 3
+2025-01-12 23:16:30,120 - __main__ - INFO - Raw street: 2535 layton drive
+2025-01-12 23:16:30,120 - __main__ - INFO - Raw city: lithonia
+2025-01-12 23:16:30,120 - __main__ - INFO - Raw state: GA
+2025-01-12 23:16:30,120 - __main__ - INFO - Raw zipcode: 30058
+2025-01-12 23:16:30,120 - coordinates - INFO - Received address parameters: street='2535 layton drive', city='lithonia', state='GA', zip='30058'
+2025-01-12 23:16:30,120 - coordinates - INFO - Decoded address parameters: street='2535 layton drive', city='lithonia', state='GA', zip='30058'
+2025-01-12 23:16:30,120 - coordinates - INFO - Sending request to SmartyStreets API
+2025-01-12 23:16:30,569 - coordinates - ERROR - SmartyStreets API error: Payment Required: There is no active subscription for the account associated with the credentials submitted with the request.
+2025-01-12 23:16:30,569 - __main__ - ERROR - Geocoding failed - no coordinates returned
+2025-01-12 23:16:30,569 - werkzeug - INFO - 127.0.0.1 - - [12/Jan/2025 23:16:30] "[31m[1mGET /parameters/2535%20layton%20drive/lithonia/GA/30058/16093/3 HTTP/1.1[0m" 400 -
+2025-01-12 23:16:33,012 - werkzeug - INFO - 127.0.0.1 - - [12/Jan/2025 23:16:33] "[33mGET /main.c5b1324076f776d5fcb2.hot-update.json HTTP/1.1[0m" 404 -
+2025-01-12 23:16:33,446 - __main__ - INFO - Received request with parameters: 2535 layton drive, lithonia, GA, 30058, 16093, 3
+2025-01-12 23:16:33,446 - __main__ - INFO - Raw street: 2535 layton drive
+2025-01-12 23:16:33,446 - __main__ - INFO - Raw city: lithonia
+2025-01-12 23:16:33,446 - __main__ - INFO - Raw state: GA
+2025-01-12 23:16:33,446 - __main__ - INFO - Raw zipcode: 30058
+2025-01-12 23:16:33,446 - coordinates - INFO - Received address parameters: street='2535 layton drive', city='lithonia', state='GA', zip='30058'
+2025-01-12 23:16:33,446 - coordinates - INFO - Decoded address parameters: street='2535 layton drive', city='lithonia', state='GA', zip='30058'
+2025-01-12 23:16:33,446 - coordinates - INFO - Sending request to SmartyStreets API
+2025-01-12 23:16:33,579 - coordinates - ERROR - SmartyStreets API error: Payment Required: There is no active subscription for the account associated with the credentials submitted with the request.
+2025-01-12 23:16:33,579 - __main__ - ERROR - Geocoding failed - no coordinates returned
+2025-01-12 23:16:33,579 - werkzeug - INFO - 127.0.0.1 - - [12/Jan/2025 23:16:33] "[31m[1mGET /parameters/2535%20layton%20drive/lithonia/GA/30058/16093/3 HTTP/1.1[0m" 400 -
+2025-01-12 23:16:33,586 - __main__ - INFO - Received request with parameters: 2535 layton drive, lithonia, GA, 30058, 16093, 3
+2025-01-12 23:16:33,586 - __main__ - INFO - Raw street: 2535 layton drive
+2025-01-12 23:16:33,586 - __main__ - INFO - Raw city: lithonia
+2025-01-12 23:16:33,586 - __main__ - INFO - Raw state: GA
+2025-01-12 23:16:33,586 - __main__ - INFO - Raw zipcode: 30058
+2025-01-12 23:16:33,586 - coordinates - INFO - Received address parameters: street='2535 layton drive', city='lithonia', state='GA', zip='30058'
+2025-01-12 23:16:33,586 - coordinates - INFO - Decoded address parameters: street='2535 layton drive', city='lithonia', state='GA', zip='30058'
+2025-01-12 23:16:33,586 - coordinates - INFO - Sending request to SmartyStreets API
+2025-01-12 23:16:33,686 - coordinates - ERROR - SmartyStreets API error: Payment Required: There is no active subscription for the account associated with the credentials submitted with the request.
+2025-01-12 23:16:33,686 - __main__ - ERROR - Geocoding failed - no coordinates returned
+2025-01-12 23:16:33,686 - werkzeug - INFO - 127.0.0.1 - - [12/Jan/2025 23:16:33] "[31m[1mGET /parameters/2535%20layton%20drive/lithonia/GA/30058/16093/3 HTTP/1.1[0m" 400 -
+2025-01-12 23:18:05,162 - werkzeug - INFO -  * Detected change in 'C:\\Users\\drewm\\Documents\\GitHub\\sweitinerary\\src\\server\\coordinates.py', reloading
+2025-01-12 23:18:05,203 - werkzeug - INFO -  * Restarting with stat
+2025-01-12 23:18:06,195 - werkzeug - WARNING -  * Debugger is active!
+2025-01-12 23:18:06,199 - werkzeug - INFO -  * Debugger PIN: 733-486-158
+2025-01-12 23:19:44,496 - werkzeug - INFO -  * Detected change in 'C:\\Users\\drewm\\Documents\\GitHub\\sweitinerary\\src\\server\\coordinates.py', reloading
+2025-01-12 23:19:44,541 - werkzeug - INFO -  * Restarting with stat
+2025-01-12 23:19:45,521 - werkzeug - WARNING -  * Debugger is active!
+2025-01-12 23:19:45,525 - werkzeug - INFO -  * Debugger PIN: 733-486-158
+2025-01-12 23:20:19,183 - __main__ - INFO - Received request with parameters: 2535 layton drive, lithonia, GA, 30058, 16093, 3
+2025-01-12 23:20:19,183 - __main__ - INFO - Raw street: 2535 layton drive
+2025-01-12 23:20:19,183 - __main__ - INFO - Raw city: lithonia
+2025-01-12 23:20:19,183 - __main__ - INFO - Raw state: GA
+2025-01-12 23:20:19,184 - __main__ - INFO - Raw zipcode: 30058
+2025-01-12 23:20:19,184 - coordinates - INFO - Attempting to geocode: 2535 layton drive, lithonia, GA 30058
+2025-01-12 23:20:19,288 - coordinates - ERROR - Geocoding failed. Status: REQUEST_DENIED, Error: You must enable Billing on the Google Cloud Project at https://console.cloud.google.com/project/_/billing/enable Learn more at https://developers.google.com/maps/gmp-get-started
+2025-01-12 23:20:19,288 - __main__ - ERROR - Geocoding failed - no coordinates returned
+2025-01-12 23:20:19,291 - werkzeug - INFO - 127.0.0.1 - - [12/Jan/2025 23:20:19] "[31m[1mGET /parameters/2535%20layton%20drive/lithonia/GA/30058/16093/3 HTTP/1.1[0m" 400 -
+2025-01-12 23:20:19,296 - __main__ - INFO - Received request with parameters: 2535 layton drive, lithonia, GA, 30058, 16093, 3
+2025-01-12 23:20:19,297 - __main__ - INFO - Raw street: 2535 layton drive
+2025-01-12 23:20:19,297 - __main__ - INFO - Raw city: lithonia
+2025-01-12 23:20:19,297 - __main__ - INFO - Raw state: GA
+2025-01-12 23:20:19,297 - __main__ - INFO - Raw zipcode: 30058
+2025-01-12 23:20:19,297 - coordinates - INFO - Attempting to geocode: 2535 layton drive, lithonia, GA 30058
+2025-01-12 23:20:19,359 - coordinates - ERROR - Geocoding failed. Status: REQUEST_DENIED, Error: You must enable Billing on the Google Cloud Project at https://console.cloud.google.com/project/_/billing/enable Learn more at https://developers.google.com/maps/gmp-get-started
+2025-01-12 23:20:19,359 - __main__ - ERROR - Geocoding failed - no coordinates returned
+2025-01-12 23:20:19,360 - werkzeug - INFO - 127.0.0.1 - - [12/Jan/2025 23:20:19] "[31m[1mGET /parameters/2535%20layton%20drive/lithonia/GA/30058/16093/3 HTTP/1.1[0m" 400 -
+2025-01-12 23:21:15,828 - werkzeug - INFO -  * Detected change in 'C:\\Users\\drewm\\Documents\\GitHub\\sweitinerary\\src\\server\\coordinates.py', reloading
+2025-01-12 23:21:15,864 - werkzeug - INFO -  * Restarting with stat
+2025-01-12 23:21:16,817 - werkzeug - WARNING -  * Debugger is active!
+2025-01-12 23:21:16,821 - werkzeug - INFO -  * Debugger PIN: 733-486-158
+2025-01-12 23:21:37,856 - __main__ - INFO - Received request with parameters: 2535 layton drive, lithonia, GA, 30058, 16093, 3
+2025-01-12 23:21:37,856 - __main__ - INFO - Raw street: 2535 layton drive
+2025-01-12 23:21:37,856 - __main__ - INFO - Raw city: lithonia
+2025-01-12 23:21:37,856 - __main__ - INFO - Raw state: GA
+2025-01-12 23:21:37,856 - __main__ - INFO - Raw zipcode: 30058
+2025-01-12 23:21:37,856 - coordinates - INFO - Attempting to geocode: 2535 layton drive, lithonia, GA 30058
+2025-01-12 23:21:37,856 - coordinates - INFO - Making request to: https://maps.googleapis.com/maps/api/geocode/json?address=2535%20layton%20drive%2C%20lithonia%2C%20GA%2030058&key=AIzaSyA4vgx9W72b65Pdn-9OMPxH_llPffwriXc
+2025-01-12 23:21:37,959 - coordinates - ERROR - Geocoding failed. Status: REQUEST_DENIED, Error: You must enable Billing on the Google Cloud Project at https://console.cloud.google.com/project/_/billing/enable Learn more at https://developers.google.com/maps/gmp-get-started
+2025-01-12 23:21:37,960 - __main__ - ERROR - Geocoding failed - no coordinates returned
+2025-01-12 23:21:37,960 - werkzeug - INFO - 127.0.0.1 - - [12/Jan/2025 23:21:37] "[31m[1mGET /parameters/2535%20layton%20drive/lithonia/GA/30058/16093/3 HTTP/1.1[0m" 400 -
+2025-01-12 23:21:37,967 - __main__ - INFO - Received request with parameters: 2535 layton drive, lithonia, GA, 30058, 16093, 3
+2025-01-12 23:21:37,967 - __main__ - INFO - Raw street: 2535 layton drive
+2025-01-12 23:21:37,967 - __main__ - INFO - Raw city: lithonia
+2025-01-12 23:21:37,967 - __main__ - INFO - Raw state: GA
+2025-01-12 23:21:37,967 - __main__ - INFO - Raw zipcode: 30058
+2025-01-12 23:21:37,967 - coordinates - INFO - Attempting to geocode: 2535 layton drive, lithonia, GA 30058
+2025-01-12 23:21:37,967 - coordinates - INFO - Making request to: https://maps.googleapis.com/maps/api/geocode/json?address=2535%20layton%20drive%2C%20lithonia%2C%20GA%2030058&key=AIzaSyA4vgx9W72b65Pdn-9OMPxH_llPffwriXc
+2025-01-12 23:21:38,071 - coordinates - ERROR - Geocoding failed. Status: REQUEST_DENIED, Error: You must enable Billing on the Google Cloud Project at https://console.cloud.google.com/project/_/billing/enable Learn more at https://developers.google.com/maps/gmp-get-started
+2025-01-12 23:21:38,071 - __main__ - ERROR - Geocoding failed - no coordinates returned
+2025-01-12 23:21:38,072 - werkzeug - INFO - 127.0.0.1 - - [12/Jan/2025 23:21:38] "[31m[1mGET /parameters/2535%20layton%20drive/lithonia/GA/30058/16093/3 HTTP/1.1[0m" 400 -
+2025-01-12 23:25:37,411 - werkzeug - INFO -  * Detected change in 'C:\\Users\\drewm\\Documents\\GitHub\\sweitinerary\\src\\server\\coordinates.py', reloading
+2025-01-12 23:25:37,457 - werkzeug - INFO -  * Restarting with stat
+2025-01-12 23:25:38,555 - werkzeug - WARNING -  * Debugger is active!
+2025-01-12 23:25:38,559 - werkzeug - INFO -  * Debugger PIN: 733-486-158
+2025-01-12 23:25:47,348 - __main__ - INFO - Received request with parameters: 2535 layton drive, lithonia, GA, 30058, 16093, 3
+2025-01-12 23:25:47,348 - __main__ - INFO - Raw street: 2535 layton drive
+2025-01-12 23:25:47,349 - __main__ - INFO - Raw city: lithonia
+2025-01-12 23:25:47,349 - __main__ - INFO - Raw state: GA
+2025-01-12 23:25:47,349 - __main__ - INFO - Raw zipcode: 30058
+2025-01-12 23:25:47,349 - coordinates - INFO - Attempting to geocode: 2535 layton drive, lithonia, GA 30058
+2025-01-12 23:25:47,349 - coordinates - INFO - Making request to Google Geocoding API
+2025-01-12 23:25:47,459 - coordinates - ERROR - Geocoding failed. Status: REQUEST_DENIED, Error: You must enable Billing on the Google Cloud Project at https://console.cloud.google.com/project/_/billing/enable Learn more at https://developers.google.com/maps/gmp-get-started
+2025-01-12 23:25:47,460 - __main__ - ERROR - Geocoding failed - no coordinates returned
+2025-01-12 23:25:47,461 - werkzeug - INFO - 127.0.0.1 - - [12/Jan/2025 23:25:47] "[31m[1mGET /parameters/2535%20layton%20drive/lithonia/GA/30058/16093/3 HTTP/1.1[0m" 400 -
+2025-01-12 23:25:47,466 - __main__ - INFO - Received request with parameters: 2535 layton drive, lithonia, GA, 30058, 16093, 3
+2025-01-12 23:25:47,466 - __main__ - INFO - Raw street: 2535 layton drive
+2025-01-12 23:25:47,466 - __main__ - INFO - Raw city: lithonia
+2025-01-12 23:25:47,466 - __main__ - INFO - Raw state: GA
+2025-01-12 23:25:47,466 - __main__ - INFO - Raw zipcode: 30058
+2025-01-12 23:25:47,466 - coordinates - INFO - Attempting to geocode: 2535 layton drive, lithonia, GA 30058
+2025-01-12 23:25:47,467 - coordinates - INFO - Making request to Google Geocoding API
+2025-01-12 23:25:47,539 - coordinates - ERROR - Geocoding failed. Status: REQUEST_DENIED, Error: You must enable Billing on the Google Cloud Project at https://console.cloud.google.com/project/_/billing/enable Learn more at https://developers.google.com/maps/gmp-get-started
+2025-01-12 23:25:47,539 - __main__ - ERROR - Geocoding failed - no coordinates returned
+2025-01-12 23:25:47,540 - werkzeug - INFO - 127.0.0.1 - - [12/Jan/2025 23:25:47] "[31m[1mGET /parameters/2535%20layton%20drive/lithonia/GA/30058/16093/3 HTTP/1.1[0m" 400 -
+2025-01-12 23:27:46,964 - werkzeug - INFO -  * Detected change in 'C:\\Users\\drewm\\Documents\\GitHub\\sweitinerary\\src\\server\\coordinates.py', reloading
+2025-01-12 23:27:47,045 - werkzeug - INFO -  * Restarting with stat
+2025-01-12 23:27:48,060 - werkzeug - WARNING -  * Debugger is active!
+2025-01-12 23:27:48,063 - werkzeug - INFO -  * Debugger PIN: 733-486-158
+2025-01-12 23:28:55,139 - __main__ - INFO - Received request with parameters: 2535 layton drive, lithonia, GA, 30058, 16093, 3
+2025-01-12 23:28:55,139 - __main__ - INFO - Raw street: 2535 layton drive
+2025-01-12 23:28:55,139 - __main__ - INFO - Raw city: lithonia
+2025-01-12 23:28:55,139 - __main__ - INFO - Raw state: GA
+2025-01-12 23:28:55,139 - __main__ - INFO - Raw zipcode: 30058
+2025-01-12 23:28:55,221 - __main__ - ERROR - Geocoding failed - no coordinates returned
+2025-01-12 23:28:55,222 - werkzeug - INFO - 127.0.0.1 - - [12/Jan/2025 23:28:55] "[31m[1mGET /parameters/2535%20layton%20drive/lithonia/GA/30058/16093/3 HTTP/1.1[0m" 400 -
+2025-01-12 23:28:55,228 - __main__ - INFO - Received request with parameters: 2535 layton drive, lithonia, GA, 30058, 16093, 3
+2025-01-12 23:28:55,228 - __main__ - INFO - Raw street: 2535 layton drive
+2025-01-12 23:28:55,228 - __main__ - INFO - Raw city: lithonia
+2025-01-12 23:28:55,228 - __main__ - INFO - Raw state: GA
+2025-01-12 23:28:55,228 - __main__ - INFO - Raw zipcode: 30058
+2025-01-12 23:28:55,334 - __main__ - ERROR - Geocoding failed - no coordinates returned
+2025-01-12 23:28:55,334 - werkzeug - INFO - 127.0.0.1 - - [12/Jan/2025 23:28:55] "[31m[1mGET /parameters/2535%20layton%20drive/lithonia/GA/30058/16093/3 HTTP/1.1[0m" 400 -
