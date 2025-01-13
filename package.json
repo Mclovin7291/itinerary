@@ -1,6 +1,6 @@
 {
   "homepage": "https://mclovin7291.github.io/itinerary",
-  "name": "sweitinerary",
+  "name": "itinerary",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:5000",
