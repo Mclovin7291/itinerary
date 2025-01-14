@@ -10,11 +10,6 @@ function Maps() {
     lng: -84.3853
   });
 
-  const containerStyle = {
-    width: '100%',
-    height: '100vh'
-  };
-
   const onLoad = useCallback(function callback(map) {
     setMap(map);
   }, []);
@@ -28,45 +23,43 @@ function Maps() {
   };
 
   return (
-    <div className="map-container">
-      <LoadScript googleMapsApiKey="AIzaSyA4vgx9W72b65Pdn-9OMPxH_llPffwriXc">
-        <GoogleMap
-          mapContainerStyle={containerStyle}
-          center={center}
-          zoom={12}
-          onLoad={onLoad}
-          onUnmount={onUnmount}
-          options={{
-            zoomControl: true,
-            streetViewControl: true,
-            mapTypeControl: true,
-            fullscreenControl: true,
+    <LoadScript googleMapsApiKey={process.env.REACT_APP_GOOGLE_MAPS_API_KEY}>
+      <GoogleMap
+        mapContainerClassName="map-container"
+        center={center}
+        zoom={12}
+        onLoad={onLoad}
+        onUnmount={onUnmount}
+        options={{
+          zoomControl: true,
+          streetViewControl: true,
+          mapTypeControl: true,
+          fullscreenControl: true,
+        }}
+      >
+        <Marker
+          position={center}
+          draggable={true}
+          onDragEnd={(e) => {
+            setCenter({
+              lat: e.latLng.lat(),
+              lng: e.latLng.lng()
+            });
           }}
-        >
-          <Marker
-            position={center}
-            draggable={true}
-            onDragEnd={(e) => {
-              setCenter({
-                lat: e.latLng.lat(),
-                lng: e.latLng.lng()
-              });
-            }}
-          />
-          {selectedPlace && (
-            <InfoWindow
-              position={selectedPlace.position}
-              onCloseClick={() => setSelectedPlace(null)}
-            >
-              <div>
-                <h3>{selectedPlace.name}</h3>
-                <p>{selectedPlace.description}</p>
-              </div>
-            </InfoWindow>
-          )}
-        </GoogleMap>
-      </LoadScript>
-    </div>
+        />
+        {selectedPlace && (
+          <InfoWindow
+            position={selectedPlace.position}
+            onCloseClick={() => setSelectedPlace(null)}
+          >
+            <div>
+              <h3>{selectedPlace.name}</h3>
+              <p>{selectedPlace.description}</p>
+            </div>
+          </InfoWindow>
+        )}
+      </GoogleMap>
+    </LoadScript>
   );
 }
 

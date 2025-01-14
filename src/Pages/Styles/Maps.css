@@ -1,15 +1,15 @@
 .map-container {
-  position: relative;
-  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
   height: 100vh;
-  background: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  z-index: 9999;
 }
 
-.map-container > div {
-  width: 100%;
-  height: 100%;
-}
-
+/* Info window styles */
 .gm-style-iw {
   background-color: white;
   border-radius: 8px;
@@ -26,4 +26,36 @@
 .gm-style-iw p {
   margin: 0;
   color: #666;
+}
+
+/* Reset any potential interfering styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.map-controls {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 10000;
+  display: flex;
+  gap: 1rem;
+}
+
+.map-button {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(5px);
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.map-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
 } 

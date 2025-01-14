@@ -20,16 +20,25 @@ function Login() {
 
   useEffect(() => {
     const loadGoogleScript = () => {
-      if (window.google && window.google.accounts && window.google.accounts.id) {
-        window.google.accounts.id.initialize({
-          client_id: "1005325099127-qdh6mv05e08eqtqhb6v4o31t0vb9m43d.apps.googleusercontent.com",
-          callback: handleCallBackResponse
-        });
-        window.google.accounts.id.renderButton(
-          document.getElementById("signInDiv"),
-          { theme: "outline", size: "large" }
-        );
-        setGoogleLoaded(true);
+      // Check if script is already loaded
+      if (!window.google || !window.google.accounts) {
+        const script = document.createElement('script');
+        script.src = 'https://accounts.google.com/gsi/client';
+        script.async = true;
+        script.defer = true;
+        script.onload = () => {
+          if (window.google && window.google.accounts) {
+            window.google.accounts.id.initialize({
+              client_id: "1005325099127-qdh6mv05e08eqtqhb6v4o31t0vb9m43d.apps.googleusercontent.com",
+              callback: handleCallBackResponse
+            });
+            window.google.accounts.id.renderButton(
+              document.getElementById("signInDiv"),
+              { theme: "outline", size: "large" }
+            );
+          }
+        };
+        document.body.appendChild(script);
       }
     };
     loadGoogleScript();

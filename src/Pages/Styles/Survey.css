@@ -2,6 +2,7 @@
     max-width: 600px;
     margin: 20px auto;
     padding: 20px;
+    animation: fadeIn 0.5s ease-out;
 }
 
 .form-section {
@@ -37,4 +38,23 @@
 
 .submit-button:hover {
     background: #45a049;
+}
+
+.survey-form input, 
+.survey-form select {
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    padding: 0.8rem;
+}
+
+.survey-form input:focus,
+.survey-form select:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
 }

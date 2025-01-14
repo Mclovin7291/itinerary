@@ -1,27 +1,27 @@
-.nav {
-    text-align: center;
+.navbar {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  box-shadow: var(--shadow);
+  padding: 1rem 2rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
 }
 
-.list {
-    list-style: none;
-
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
 }
 
-.alist {
-    text-decoration: none;
-    color: blue;
-
+.nav-link {
+  color: var(--dark-color);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
 }
 
-/*a:visited {
-    text-decoration: none;
-    color: red;
-}*/
-
-a:hover, a:active {
-    color: darkblue;
-    text-decoration: none;
-    background-color: rgba(102, 102, 236, 0.358);
-    border-radius: 20px;
-    padding: 1px 10px;
+.nav-link:hover {
+  color: var(--primary-color);
 }

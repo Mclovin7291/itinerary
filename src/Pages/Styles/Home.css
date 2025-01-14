@@ -75,3 +75,18 @@
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
+@media (max-width: 768px) {
+  .box {
+    margin: 1rem;
+    padding: 2rem;
+  }
+
+  .typed {
+    font-size: 2rem;
+  }
+
+  .raff {
+    width: 150px;
+  }
+}

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './Styles/Itinerary.css'
 import { useLocation } from 'react-router-dom'
+import config from '../config'
 
 export default function Itinerary() {
     const [data, setData] = useState({})
@@ -34,7 +35,7 @@ export default function Itinerary() {
             
             try {
                 console.log('Fetching with data:', formData);
-                const url = `/parameters/${formData.address}/${formData.city}/${formData.state}/${formData.zip}/${formData.radius}/${formData.priceRange}`;
+                const url = `${config.apiUrl}/parameters/${formData.address}/${formData.city}/${formData.state}/${formData.zip}/${formData.radius}/${formData.priceRange}`;
                 console.log('Fetching from URL:', url);
                 
                 const response = await fetch(url);
