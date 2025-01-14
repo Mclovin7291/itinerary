@@ -11,16 +11,15 @@ import Login from './Pages/Login';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Navbar />
       <Login /> 
       <Routes>
-        <Route exact path = '/' element = {<Home />} />
-        <Route path='/Home' element={<Home/>} />
-        <Route path='/Survey' element={<Survey/>} />
-        <Route path='/Itinerary' element={<Itinerary/>} />
-        <Route path='/Maps' element={<Maps/>} />
-
+        <Route exact path="/" element={<Home />} />
+        <Route path="/Home" element={<Home/>} />
+        <Route path="/Survey" element={<Survey/>} />
+        <Route path="/Itinerary" element={<Itinerary/>} />
+        <Route path="/Maps" element={<Maps/>} />
       </Routes>
     </Router>
     
