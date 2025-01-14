@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/itinerary/static/css/main.b0d825cf.css",
+    "main.js": "/itinerary/static/js/main.c2d42e39.js",
+    "static/js/787.9242f1fa.chunk.js": "/itinerary/static/js/787.9242f1fa.chunk.js",
+    "static/media/raff.png": "/itinerary/static/media/raff.3a220330b930650566ec.png",
+    "static/media/background.jpg": "/itinerary/static/media/background.d7daf2023e2965932fda.jpg",
+    "index.html": "/itinerary/index.html",
+    "main.b0d825cf.css.map": "/itinerary/static/css/main.b0d825cf.css.map",
+    "main.c2d42e39.js.map": "/itinerary/static/js/main.c2d42e39.js.map",
+    "787.9242f1fa.chunk.js.map": "/itinerary/static/js/787.9242f1fa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0d825cf.css",
+    "static/js/main.c2d42e39.js"
+  ]
+}
