@@ -1,5 +1,5 @@
 {
-  "name": "sweitinerary",
+  "name": "itinerary",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:5000",
@@ -27,7 +27,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build --git git"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
